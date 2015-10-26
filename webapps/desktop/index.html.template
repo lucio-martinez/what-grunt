@@ -1,0 +1,36 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>What grunt? | Desktop</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- build:css assets/styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css assets/styles/main.css -->
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body ng-app="whatGruntDesktop">
+
+    <top-navbar></top-navbar>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ng-view></ng-view>
+        </div>
+      </div>
+    </div>
+
+    <!-- build:js src/vendor.js -->
+    <!-- bower:js -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js src/app.js -->
+    <!-- include: "type": "js", "files": "src/**/*.js" -->
+    <!-- endbuild -->
+  </body>
+</html>

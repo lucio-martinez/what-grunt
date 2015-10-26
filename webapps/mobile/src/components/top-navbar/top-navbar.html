@@ -1,0 +1,28 @@
+<div layout="column" layout-fill>
+  <md-sidenav md-component-id="left" class="md-sidenav-left">
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <span>Navigation</span>
+      </div>
+    </md-toolbar>
+    <md-content>
+    <md-list>
+      <md-list-item>
+        <a href="#/">Home</a>
+      </md-list-item>
+      <md-list-item>
+        <a href="#/about">About</a>
+      </md-list-item>
+    </md-list>
+    </md-content>
+  </md-sidenav>
+  <md-toolbar>
+    <div class="md-toolbar-tools">
+      <span>What grunt?</span>
+      <span flex></span>
+      <md-button ng-click="openLeftMenu()">
+        Open Sidebar
+      </md-button>
+    </div>
+  </md-toolbar>
+</div>

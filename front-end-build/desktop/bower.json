@@ -1,0 +1,12 @@
+{
+  "name": "desktop",
+  "version": "0.0.1",
+  "description": "Desktop demo website built with AngularJS and Bootstrap.",
+  "private": true,
+  "dependencies": {
+    "angular": "1.4.7",
+    "angular-route": "1.4.7",
+    "bootstrap": "3.3.4",
+    "jquery": "2.1.4"
+  }
+}

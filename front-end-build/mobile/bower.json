@@ -1,0 +1,12 @@
+{
+  "name": "mobile",
+  "version": "0.0.1",
+  "description": "Mobile demo website built with AngularJS and Material Design.",
+  "private": true,
+  "dependencies": {
+    "angular": "1.4.7",
+    "angular-material": "0.11.4",
+    "angular-route": "1.4.7",
+    "jquery": "2.1.4"
+  }
+}
