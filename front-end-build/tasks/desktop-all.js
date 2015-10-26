@@ -1,5 +1,5 @@
 module.exports = function(grunt, paths) {
-console.log(paths.patterns.desktop_src);
+
   grunt.config.merge({
     /**
      * Clean the directories that are
