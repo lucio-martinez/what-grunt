@@ -34,8 +34,8 @@ __NPM dependencies__
 
 The first thing is to install the dependencies for grunt, which are called node modules.
 
-  $ cd front-end-build
-  $ npm install
+    $ cd front-end-build
+    $ npm install
   
 Go and grab a coffe 'cause this will take long.
 
@@ -50,9 +50,9 @@ __Bower dependencies__
 
 Each of the projects will have their own fron end dependencies and they are installed using bower.
 
-  $ cd front-end-build/
-  $ cd desktop && bower install
-  $ cd ../mobile && bower install
+    $ cd front-end-build/
+    $ cd desktop && bower install
+    $ cd ../mobile && bower install
   
 *This dependencies will differ for each app.*
 
@@ -61,18 +61,18 @@ __Running grunt for dev__
 Front end devs are used to run a "watch" task. 
 This task is supposed to observe the source code and refresh the browser as soon as it change.
 
-  $ cd front-end-build/
-  $ grunt watch-desktop # or watch-mobile
+    $ cd front-end-build/
+    $ grunt watch-desktop # or watch-mobile
 
 __Running grunt for prod__
 
 The production version of an app must be fully optimized (whitespaces removed and such)
 so it load fasters. This is commonly known as "assets compilation".
 
-  $ cd front-end-build/
-  $ grunt desktop # Compiles desktop app
-  $ grunt mobile # mobile app only
-  $ grunt # This compiles both desktop and mobile apps
+    $ cd front-end-build/
+    $ grunt desktop # Compiles desktop app
+    $ grunt mobile # mobile app only
+    $ grunt # This compiles both desktop and mobile apps
 
 ## Contributing
 Yasss! Fork it and make pull request, create issues, give starz, everything helps. 
