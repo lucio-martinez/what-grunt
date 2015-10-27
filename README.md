@@ -4,6 +4,10 @@
 ## Project
 The goal for this project is to give you tools to understand what is grunt and how does it works.
 
+## Slides
+
+You can see the slides [here](http://www.slideshare.net/lucio-martinez/what-grunt) made for the presentation.
+
 ## Under the hood
 Details of what is inside this beast (it doesn't bite :P).
 
