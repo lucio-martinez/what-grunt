@@ -43,7 +43,7 @@ The first thing is to install the dependencies for grunt, which are called node 
   
 Go and grab a coffe 'cause this will take long.
 
-What is it going to get installed? What ever is declared on ´package.json´.
+What is it going to get installed? Whatever is declared on ´package.json´.
 This files is read by the npm command.
 
 Who use this dependencies? The whole grunt configuration will use this dependencies to run the grunt tasks.
@@ -59,6 +59,16 @@ Each of the projects will have their own fron end dependencies and they are inst
     $ cd ../mobile && bower install
   
 *This dependencies will differ for each app.*
+
+__Executing a server__
+
+You can choose to bring the source code into life running a static file server in node.
+
+    $ cd server/
+    $ npm install
+    $ node run_desktop
+
+This npm installation will be fastest since only three packages will get installed. **Attention**: leave this thread running on the background if you are going to be executing grunt at the same time.
 
 __Running grunt for dev__
 
@@ -77,6 +87,21 @@ so it load fasters. This is commonly known as "assets compilation".
     $ grunt desktop # Compiles desktop app
     $ grunt mobile # mobile app only
     $ grunt # This compiles both desktop and mobile apps
+
+__Recommended flow__
+
+I would do something like this once everything is installed:
+
+ 1. Run the server
+ 2. Run the watch task for desktop
+ 3. Code..
+ 4. Stop everything
+ 5. Run the prod task for desktop
+ 6. Modify run_desktop.js and point it to production
+ 7. Run the server
+ 8. Test
+ 9. ???
+ 10. Profit!
 
 ## Contributing
 Yasss! Fork it and make pull request, create issues, give starz, everything helps. 

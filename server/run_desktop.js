@@ -3,9 +3,9 @@ var http = require('http');
 var serveStatic = require('serve-static');
 
 // Serve up public folder
-var serve = serveStatic('webapps/mobile/dist', {
-  'index': 'index.html'
-});
+var serve = serveStatic('../webapps/desktop/');
+// To see the production version enable following comment
+//var serve = serveStatic('../webapps/desktop/dist');
 
 // Create server
 var server = http.createServer(function(req, res) {
